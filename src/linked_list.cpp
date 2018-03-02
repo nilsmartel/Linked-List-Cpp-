@@ -45,7 +45,7 @@ class List {
     }
 
     /**
-     * Pushes an inteher value to the end of the list
+     * Pushes an integer value to the end of the list
      */ 
     void push(int value) {
         if (!this->head) this->head = new_node(value);
